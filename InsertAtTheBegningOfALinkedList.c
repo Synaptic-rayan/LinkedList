@@ -6,7 +6,7 @@ struct node {
     struct node* link;
 };
 
-struct node* at_the_brg(struct node* head, int data) {
+struct node* at_the_beg(struct node* head, int data) {
     struct node* ptr = (struct node*)malloc(sizeof(struct node));
     if (ptr == NULL) {
         printf("Memory allocation failed\n");
@@ -30,9 +30,9 @@ int main() {
     ptr->data = 16;
     ptr->link = NULL;
     
-    head = at_the_brg(head, 10);
-    head = at_the_brg(head, 22);
-    head = at_the_brg(head, 1000);
+    head = at_the_beg(head, 10);
+    head = at_the_beg(head, 22);
+    head = at_the_beg(head, 1000);
 
     ptr = head;
     
