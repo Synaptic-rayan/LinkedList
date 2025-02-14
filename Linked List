@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 // Create, insert and delete from linked list;
@@ -37,6 +36,11 @@ free(first);
 free(second);
 free(third);
 }
+
+
+
+
+
 
 
 // Print Recursive linked list;
@@ -94,9 +98,13 @@ int main()
 
 
 
+
+
+
+
 // Searching in a linked list;
 
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -158,10 +166,14 @@ int main()
   free(third);
 
   return 0;
-}*/
+}
+
+
+
+
+
 
 // Recursive counting no of element in linked list;
-/*
 #include <stdio.h>
 #include <stdlib.h>
 struct node
@@ -208,8 +220,14 @@ int main()
   free(second);
   free(third);
 }
-*/
-/*
+
+
+
+
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -278,4 +296,4 @@ int main()
   free(t);
 
   return 0;
-}*/
+}
