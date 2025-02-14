@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 // Create, insert and delete from linked list;
@@ -37,11 +37,11 @@ free(first);
 free(second);
 free(third);
 }
-*/
+
 
 // Print Recursive linked list;
 
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 struct Node
@@ -91,7 +91,7 @@ int main()
   free(second);
   free(third);
 }
-*/
+
 
 
 // Searching in a linked list;
